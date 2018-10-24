@@ -1,0 +1,14 @@
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.exe.config
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.exe
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.pdb
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.csprojResolveAssemblyReference.cache
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.csproj.GenerateResource.Cache
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.exe
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.pdb
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.XML
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.Core.MainForm.resources
+c:\users\hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.Core.Properties.Resources.resources
+C:\Users\Hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.exe.manifest
+C:\Users\Hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\bin\Debug\AtoZ.application
+C:\Users\Hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.exe.manifest
+C:\Users\Hazker\documents\visual studio 2015\Projects\AtoZ\AtoZ\obj\Debug\AtoZ.application

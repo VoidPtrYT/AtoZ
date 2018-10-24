@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AtoZ</name>
+    </assembly>
+    <members>
+        <member name="T:AtoZ.Convert.LanguageConvert">
+            <summary>
+            static class of language convert
+            </summary>
+        </member>
+        <member name="M:AtoZ.Convert.LanguageConvert.#cctor">
+            <summary>
+            Main constructor of static class
+            </summary>
+        </member>
+        <member name="M:AtoZ.Convert.LanguageConvert.Convert(System.String)">
+            <summary>
+            Static metod of convert language
+            </summary>
+            <param name="strSrc">Source string</param>
+            <returns>Converted string</returns>
+        </member>
+        <member name="T:AtoZ.Convert.RegisterConvert">
+            <summary>
+            Static class of register convert
+            </summary>
+        </member>
+        <member name="M:AtoZ.Convert.RegisterConvert.Convert(System.String)">
+            <summary>
+            Static metod of convert register
+            </summary>
+            <param name="strSrc">Source string</param>
+            <returns>Converted string</returns>
+        </member>
+        <member name="T:AtoZ.Core.ETypeChange">
+            <summary>
+            Defines what type of change needs
+            </summary>
+        </member>
+        <member name="F:AtoZ.Core.ETypeChange.Language">
+            <summary>
+            If need edit language
+            </summary>
+        </member>
+        <member name="F:AtoZ.Core.ETypeChange.Register">
+            <summary>
+            If need edit register
+            </summary>
+        </member>
+        <member name="T:AtoZ.Core.MainForm">
+            <summary>
+            Class of main form
+            </summary>
+        </member>
+        <member name="F:AtoZ.Core.MainForm.type">
+            <summary>
+            Type of change
+            </summary>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.btnChangeLang_Click(System.Object,System.EventArgs)">
+            <summary>
+            Change language
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.btnChangeRegister_Click(System.Object,System.EventArgs)">
+            <summary>
+            Change register
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.btnClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Clerars fields
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.btnExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exit application
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.tbText_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            If changed main field of text
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="F:AtoZ.Core.MainForm.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:AtoZ.Core.MainForm.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="T:AtoZ.Core.Program">
+            <summary>
+            Main class of programm
+            </summary>
+        </member>
+        <member name="M:AtoZ.Core.Program.Main">
+            <summary>
+            Main entry to application
+            </summary>
+            <returns>0 if programm ends correct. 1 if error</returns>
+        </member>
+        <member name="T:AtoZ.Core.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:AtoZ.Core.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:AtoZ.Core.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

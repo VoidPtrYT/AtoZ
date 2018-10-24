@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AtoZ.exe" version="1.0.1.2" publicKeyToken="4a48234dc264167c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AtoZ" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AtoZ.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AtoZ.exe" size="67008">
+      <assemblyIdentity name="AtoZ" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2A+zdiYTRzcVQ8+mnO/z4Bz2DBI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AtoZ.exe.config" size="274">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>O2FIQpjzEUlX5VuDr3JXXCYQ208=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="32924">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TiKfv+N2u93WDXlMS7Uhb7ye2Io=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Hazker-PC\Hazker" issuerKeyHash="8b9d2d5a4d4143937d9fd16937fc01d1583257df" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XuT2vERhvCDNyoP5tg8cOBrfdsE=</DigestValue></Reference></SignedInfo><SignatureValue>MQ87Sic2aFGJSQH9rltToaPME87Xw764I8a1bTkl5D8XTFf7SKi5O3/FdL90cfIn5W49Ch3YsOpyvEm/tq1yxSVFgDEJ26iZbCvamPWPr4dOLb3uvbs/dVVErBtHFNYxoeiqo7GXde1nrxTV2leA6TSdxgvROD5d55sYsXPHJmE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rajnhM6PCNm6p+dd96xpuxkVXeLQro1F1SpwUEhZABK40ppDboYMh5Jb2RIggQs4x71iYNNi3ktuhlF8SDSNNCaZx2OfQRrJKur7A/D3ERlxHszDiTmqKs04bfqtOzc+UQyUs4jLj75xr0EbmUhbfPfhNRW9u5d7D3EqBo+spFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c176df1a381c0fb6f983cacd20bc6144bcf6e45e" Description="" Url=""><as:assemblyIdentity name="AtoZ.exe" version="1.0.1.2" publicKeyToken="4a48234dc264167c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Hazker-PC\Hazker</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zTpeJqrED53OF6SqePC0qUE+biE=</DigestValue></Reference></SignedInfo><SignatureValue>DIYEMhTLx4T+jCLTzLJtFbo/2K/hzZ6j5j6qjy+yfIBASaVCZSKOZmoQfixZknSZUXJrrm/EB5ioyuQmMatXr3gY7gBukmipe4hbO0CYIHl51gFohAWDBOtNmiNd/H/KDwuc64GktFUQKU+MhQYArZf3oz8bJxoA1LWSnSdexsk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rajnhM6PCNm6p+dd96xpuxkVXeLQro1F1SpwUEhZABK40ppDboYMh5Jb2RIggQs4x71iYNNi3ktuhlF8SDSNNCaZx2OfQRrJKur7A/D3ERlxHszDiTmqKs04bfqtOzc+UQyUs4jLj75xr0EbmUhbfPfhNRW9u5d7D3EqBo+spFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQOGKm5LU006hFT6aN8H4H2TANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASABhAHoAawBlAHIALQBQAEMAXABIAGEAegBrAGUAcjAeFw0xODA0MjQyMTAxNThaFw0xOTA0MjUwMzAxNThaMCsxKTAnBgNVBAMeIABIAGEAegBrAGUAcgAtAFAAQwBcAEgAYQB6AGsAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtqOeEzo8I2bqn5133rGm7GRVd4tCujUXVKnBQSFkAErjSmkNuhgyHklvZEiCBCzjHvWJg02LeS26GUXxINI00JpnHY59BGskq6vsD8PcRGXEezMOJOaoqzTht+q07Nz5RDJSziMuPvnGvQRuZSFt89+E1Fb27l3sPcSoGj6ykWwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFoBy8sktS3g6xi7a7Hq8zpxY1v4zryat+2LDmleUDIT2rnydCkNxJjgL4H8kg9oMjgQPqljTqUH79KC+/XPoq1ZrYiO3y6+MdYAUNtKIBxgDhHbKqVin/V7a1N0LYqQX0WlsXD5fwaANXs0ADxWMR24dCNRBGVm0iNEYqcmpzvT</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
